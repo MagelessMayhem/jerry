@@ -1,8 +1,8 @@
 #include <mutex>
 #include <iostream>
 #include <string>
-#include <StdInt.h>
-#include <windows.h> 
+#include <stdint.h>
+#include <X11/X.h> 
 
 using std::string;
 using namespace std;
