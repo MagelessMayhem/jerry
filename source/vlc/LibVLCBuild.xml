@@ -8,8 +8,8 @@
 	</files>
 	
 	<target id='haxe' tool='linker' toolid='exe'>
-		<lib name='${CPP_DIR}/lib/libvlc.lib' if='windows'/>
-		<lib name='${CPP_DIR}/lib/libvlccore.lib' if='windows'/>
+		<lib name='${CPP_DIR}/lib/linux/libvlc.so' if='linux'/>
+		<lib name='${CPP_DIR}/lib/linux/libvlccore.so.7' if='linux'/>
 	</target>
 
 	<target id="haxe" tool="linker" if="macos">
